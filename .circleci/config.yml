@@ -1,0 +1,29 @@
+{
+  "embeds": [{
+    "author": {
+      "name": "<<<{{ChannelName}}>>> started streaming!",
+      "url": "<<<{{ChannelUrl}}>>>",
+      "icon_url": "https://avatar.glue-bot.xyz/twitch/<<<{{ChannelName}}>>>"
+    },
+    "fields": [
+      {
+        "name": "Game",
+        "value": "**<<<{{Game}}>>>**",
+        "inline": true
+      },
+      {
+        "name": "Viewers",
+        "value": "<<<{{CurrentViewers}}>>>",
+        "inline": true
+      }
+    ],
+    "image": {
+      "url": "<<<{{StreamPreview}}>>>"
+    },
+    "footer": {
+      "text": "<<<{{CreatedAt}}>>>",
+      "icon_url": "https://i.imgur.com/p4CqTrc.png"
+    },
+    "color": 9520895
+  }]
+}
